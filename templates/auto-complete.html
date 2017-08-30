@@ -7,5 +7,8 @@
         ng-mouseenter="suggestionList.select($index)">
       <ti-autocomplete-match scope="templateScope" data="::item"></ti-autocomplete-match>
     </li>
+    <li class="suggestion-item suggestion-did-you-mean" ng-show="suggestionList.items.length == 0">
+      Do you want to add term that matches XXX?
+    </li>
   </ul>
 </div>

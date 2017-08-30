@@ -40,6 +40,10 @@ tags-input .autocomplete {
       }
     }
 
+    &.did-you-mean {
+      font-style: italic;
+    }
+
     em {
       font: $suggestion-highlight-font;
       color: $suggestion-highlight-color;
